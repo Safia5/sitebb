@@ -26,7 +26,46 @@ nav .onglets a{
   color: #000;
   margin-right: 10px;
   border-bottom: 1px solid #b3d4fc;
-  padding-bottom: 5px;
+}
+#firstimg{
+  display: flex;
+  margin: auto;
+  height: 20em;
+  justify-content: center;
+}
+.premiere-img{
+  background-color: #1f1d1d;
+  border-bottom: 5px solid #6f6f6f;
+}
+.accueil {
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+}
+#title{
+text-align: center;
+
+}
+.accueil-img{
+  text-align: center;
+}
+.accueil-img figure{
+  display: flex;
+  justify-content: space-evenly;
+  height: 30em;
+}
+.title-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer{
+  margin: 0;
+  padding: 0;
+  font-family:"Montserrat", sans-serif;
+ text-align: center;
+ border-top: 5px solid#6f6f6f; ;
+  
 }
 
 @media screen and (max-width:680px){
