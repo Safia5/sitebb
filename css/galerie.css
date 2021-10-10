@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family:"Montserrat", sans-serif;
 }
 nav{
@@ -28,10 +29,32 @@ nav .onglets a{
   border-bottom: 1px solid #b3d4fc;
   padding-bottom: 5px;
 }
+ .img-grossesse{
+   text-align: center;
+ }
+ .img-grossesse figure{
+   display: flex;
+   justify-content: space-evenly;
+   height: 20em;
+   width: 100%;
+   margin: 3em; 
+ }
+ .sous-photo-gr figure{
+  display: flex;
+  justify-content: space-evenly;
+  height: 20em;
+  width: 100%;
+  margin: 3em;
+ }
+ .sous-titre-grossesse article{
+   text-align: center;
+ }
 footer{
     margin: 0;
     padding: 0;
     font-family:"Montserrat", sans-serif;
     margin-top: 3px;
     margin-left: 300px;
+    border-top: 5px solid#6f6f6f; ;
+    text-align: center;
   }
