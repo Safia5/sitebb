@@ -28,6 +28,9 @@ nav .onglets a{
   border-bottom: 1px solid #b3d4fc;
   padding-bottom: 5px;
 }
+.tarifs-gr h1{
+  text-align: center;
+}
 footer{
     margin: 0;
     padding: 0;
